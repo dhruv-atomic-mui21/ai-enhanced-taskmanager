@@ -1,2 +1,17 @@
-# ai-enhanced-taskmanager
-AI Enhanced Task Manager This repository hosts a Flask-based web application that integrates AI to streamline task management. The project leverages Google's Gemini generative AI API to dynamically generate and enhance task details, making it easier to organize and prioritize daily tasks.
+AI-Enhanced Task Manager
+A Flask-based task manager integrating Google's Gemini AI for smarter task handling.
+
+Features:
+AI Assistance: Generates task details, assigns priority, and categorizes tasks from a simple title.
+
+Smart Processing: Extracts dates, adjusts priority based on deadlines.
+
+Task Insights: Summarizes pending vs. completed tasks with due dates.
+
+CRUD & Search: RESTful APIs for task management with filtering options.
+
+Rate Limiting: Controls API usage (15 requests/min) via Flask-Limiter.
+
+Security: Uses dotenv for safe API credential handling.
+
+A modular, scalable solution for AI-powered task management.
