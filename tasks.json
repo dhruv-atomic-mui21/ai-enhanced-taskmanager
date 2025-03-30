@@ -1,0 +1,29 @@
+{
+    "1": {
+        "title": "mothers medicine",
+        "desc": "I. Objective: Administer medications safely and accurately.\nII. Verify: Confirm medication, dose, and timing against prescription.\nIII. Prepare: Assemble required medication and supplies.\nIV. Administer: Assist patient with timely medication intake.",
+        "priority": "High",
+        "category": "Health",
+        "due_date": "2025-03-30",
+        "status": "Completed",
+        "created_at": "2025-03-29 22:43:03"
+    },
+    "2": {
+        "title": "workout",
+        "desc": "I. Objective: Execute a comprehensive full body workout to improve overall fitness.\n\nII. Key Steps:\n    a. Perform compound exercises targeting major muscle groups.\n    b. Incorporate isolation exercises to address specific muscle weaknesses.\n    c. Conclude with stretching and cool-down activities.",
+        "priority": "Low",
+        "category": "Health",
+        "due_date": "2025-03-30 08:00",
+        "status": "Pending",
+        "created_at": "2025-03-30 17:40:51"
+    },
+    "3": {
+        "title": "mother's meds",
+        "desc": "Refill and administer mother's medications. Check dosages and ensure timely administration.",
+        "priority": "High",
+        "category": "Health",
+        "due_date": "2025-03-31 09:00",
+        "status": "Pending",
+        "created_at": "2025-03-30 17:41:55"
+    }
+}
