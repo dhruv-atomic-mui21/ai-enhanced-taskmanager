@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Information</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+</head>
+<body>
+    <div class="ui container">
+        <h1 class="ui center aligned header">To-Do App Information</h1>
+
+        <div class="ui segment">
+            <h2 class="ui dividing header">Overview</h2>
+            <p>This To-Do App is designed to help users efficiently manage their tasks with AI-powered assistance.</p>
+
+            <h2 class="ui dividing header">Features</h2>
+            <ul class="ui list">
+                <li><i class="check icon"></i> AI-powered task assistance and prioritization</li>
+                <li><i class="check icon"></i> Task summarization and description enhancement</li>
+                <li><i class="check icon"></i> Smart category suggestions for tasks</li>
+                <li><i class="check icon"></i> Secure API with rate limiting to prevent misuse</li>
+            </ul>
+
+            <h2 class="ui dividing header">Storage</h2>
+            <p>Tasks are stored in a JSON file, allowing easy retrieval, updates, and persistence.</p>
+
+            <h2 class="ui dividing header">Technologies Used</h2>
+            <p>This app is built using:</p>
+            <div class="ui bulleted list">
+                <div class="item"><strong>Flask</strong> - Python web framework</div>
+                <div class="item"><strong>Semantic UI</strong> - Frontend design</div>
+                <div class="item"><strong>Google Gemini AI API</strong> - AI-powered task assistance</div>
+                <div class="item"><strong>JSON</strong> - Simple and efficient data storage</div>
+            </div>
+
+            <h2 class="ui dividing header">How to Use</h2>
+            <p>Navigate to the homepage to:</p>
+            <ul class="ui list">
+                <li><i class="plus circle icon"></i> Add new tasks</li>
+                <li><i class="edit icon"></i> Update existing tasks</li>
+                <li><i class="trash alternate icon"></i> Delete completed tasks</li>
+                <li><i class="lightbulb icon"></i> Use AI for prioritization, summarization, and categorization</li>
+            </ul>
+
+            <div class="ui center aligned segment">
+                <a href="/" class="ui primary button">
+                    <i class="home icon"></i> Go back to the homepage
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

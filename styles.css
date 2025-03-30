@@ -1,0 +1,100 @@
+/* Base styling */
+body {
+    background-color: #f7f7f7;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container styling */
+  .ui.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Segment styling */
+  .ui.segment {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Message styling */
+  .ui.message {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hidden elements */
+  .hidden {
+    display: none;
+  }
+  
+  /* Task item styling */
+  .task-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .task-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Completed task styling */
+  .completed .header {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  /* Right floated actions */
+  .right.floated {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  /* Action buttons container */
+  .action-buttons {
+    margin-top: 15px;
+  }
+  
+  /* AI Sidebar styling */
+  .ai-sidebar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 40px; /* collapsed width */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-right: none;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  .ai-sidebar:hover {
+    width: 300px; /* expanded width */
+  }
+  
+  .ai-sidebar-content {
+    padding: 10px;
+  }
+  
+  /* Button enhancements */
+  button.ui.button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button.ui.button:hover {
+    opacity: 0.9;
+  }
+  
